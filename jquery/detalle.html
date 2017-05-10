@@ -1,0 +1,50 @@
+<html>
+    <head>
+       <title>Pelicula</title>
+       <meta charset="utf-8">
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="proyecto.js"></script>
+        <script type="text/javascript" src="detalle.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_blue.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <style>
+            #imagen{
+                float: left;
+            }
+            #cabezada{
+                background-color: lightblue;
+            }  
+            h2{
+                background-color: lightgreen;
+            }   
+        </style>
+    </head>
+    <body>
+        <div class="mdl-grid">
+            <div id="cabezada"></div>
+        </div>
+        <div class="mdl-grid">
+            <div id="imagen" class="mdl-cell mdl-cell--2-col">
+            </div>
+            <div id ="cuerpo" class="mdl-cell mdl-cell--6-col">
+                <h2>Datos de interés</h2>
+                <ul>
+                    <li id="dire"></li>
+                    <br>
+                    <li id="escr"></li>
+                    <br>
+                    <li id="repa"></li>
+                    <br>
+                    <li id="prod"></li>
+                    <br>
+                    <li id="dura"></li>
+                </ul>
+                <div id="informacion"><h2>Sinopsis</h2></div>
+            </div>  
+        </div>
+    </body>
+</html>

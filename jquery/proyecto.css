@@ -1,0 +1,48 @@
+         /*   #cabecera{
+                width: 100%;
+                top: 0px;
+                position: relative;
+                align-content: center;
+            }
+            #cabecera #busqueda{
+                top : 50%;
+                left: 35%;
+                position: absolute;
+                border: 2px solid lightblue;
+                width: 30%;
+                height: 30%;
+                font-size: 22;
+            }
+            #busqueda:focus{
+                background-color: lightblue;
+            }
+            #cabecera #botoncillo{
+                position: absolute;
+                top : 50%;
+                left: 65%;
+                width: 10%;
+                height: 30%;
+                background-color: lightblue;
+            }
+            .pelicard{
+                width: 40%;
+                float: left;
+            }
+            .pelicard img{
+                 height: 200px;
+                 width: 150px;
+                 float: left;
+            }
+            .pelicard h1{
+                top:50%;
+                align-content: center;
+            }*/
+            #loading{
+                display: none;
+                bottom: 0px;
+            }
+
+            .main{
+                padding:50px;
+                padding-bottom: 50px;
+            }
